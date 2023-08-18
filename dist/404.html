@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>CaiCai 的分享库</title><meta name="description" content="这是我的一个 代码分享 站点">
+    <link rel="preload" href="/CodeSharing/assets/style-b37bf63a.css" as="style"><link rel="stylesheet" href="/CodeSharing/assets/style-b37bf63a.css">
+    <link rel="modulepreload" href="/CodeSharing/assets/app-5bca3744.js"><link rel="modulepreload" href="/CodeSharing/assets/404.html-5949ed1c.js"><link rel="modulepreload" href="/CodeSharing/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/CodeSharing/assets/index.html-b8a73a3f.js" as="script"><link rel="prefetch" href="/CodeSharing/assets/穿梭框优化改造.html-1b148261.js" as="script"><link rel="prefetch" href="/CodeSharing/assets/选择器的虚拟渲染.html-a05d8a7f.js" as="script"><link rel="prefetch" href="/CodeSharing/assets/index.html-082d1243.js" as="script"><link rel="prefetch" href="/CodeSharing/assets/穿梭框优化改造.html-13973fbd.js" as="script"><link rel="prefetch" href="/CodeSharing/assets/选择器的虚拟渲染.html-bd6d2fb9.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/CodeSharing/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/CodeSharing/assets/app-5bca3744.js" defer></script>
+  </body>
+</html>

@@ -3,6 +3,7 @@ import { defaultTheme } from "vuepress";
 
 export default defineUserConfig({
   base: "/CodeSharing/",
+	dest: './dist',
   lang: "zh-CN",
   title: "CaiCai 的分享库",
   description: "这是我的一个 代码分享 站点",
